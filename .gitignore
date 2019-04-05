@@ -30,3 +30,4 @@ package-lock.json
 *.orig
 webpack-cache/
 public/
+yarn.lock
