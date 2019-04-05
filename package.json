@@ -1,8 +1,13 @@
 {
 	"name": "random-quote-machine",
+	"repository": "https://github.com/Su-Ky/random-quote-machine",
 	"sideEffects": false,
 	"version": "0.1.0",
 	"scripts": {
+		"webpack-dev-server": "webpack-dev-server",
+		"webpack": "webpack",
+		"rimraf": "rimraf",
+		"tslint": "tslint",
 		"prebuild": "rimraf public && yarn lint",
 		"build": "webpack -p --config config/webpack.prod.js",
 		"lint": "tslint src/*.ts{,x} src/**/*.ts{,x}",
