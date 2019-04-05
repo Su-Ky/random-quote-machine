@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet:400,700');
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #fa3ccd;
+$blue: #0dcbe0;
+$pink-light: #d1779f;
+$pink-lighter: #f0abce;
+
+// Update Bulma's global variables
+$family-sans-serif: "Germania One", cursive;
+$grey-dark: #ee2500;
+$grey-light: black;
+$primary: $pink;
+$link: $blue;
+$danger: red;
+$background: red;
+
+// Update some of Bulma's component variables
+$body-background-color: $pink-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import "~bulma/bulma";
+@import "~bulma/sass/utilities/all";
+@import "~bulma/sass/base/all";
+@import "~bulma/sass/elements/button";
+@import "~bulma/sass/layout/all";
+
+
+html, body {
+  display: block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.is-horizontal-center {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#author {
+  color: blue;
+  width: 550px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+
+#quote-box {
+  background-color: khaki;
+  text-align: justify-all;
+  line-height: 3.0;
+}
