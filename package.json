@@ -16,8 +16,7 @@
 	},
 	"keywords": [
 		"inferno",
-		"typescript",
-		"innu"
+		"typescript"
 	],
 	"license": "MIT",
 	"dependencies": {
