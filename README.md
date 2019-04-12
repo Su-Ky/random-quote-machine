@@ -11,7 +11,7 @@ https://random-quote-machinec.netlify.com
 HTML, scss, Javascript, Redux, Typescript,  
 Infergo, Bulma, Webpack and Babel 
 ```
-##Thank You !!!
+## Thank You !!!
 
 https://www.freecodecamp.org
 
