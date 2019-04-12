@@ -7,8 +7,10 @@ import {AppIndex} from './components/AppIndex';
 import {INIT, rootReducer} from './store';
 import configureStore from './store/configure';
 
-import './styles.scss';
-import {quote} from "./store/actions/quote";
+import src from './styles.scss';
+
+export {src};
+import {quote} from './store/actions/quote';
 
 const store = configureStore(combineReducers(rootReducer), INIT);
 
