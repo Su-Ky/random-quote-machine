@@ -1,14 +1,17 @@
 # RANDOM QUOTE MACHINE 
 
 ## Quick Start 
-```bash
-yarn
-yarn start
 ```
+Education Purpose
 
-## For production
-```bash
-yarn
-# build on ./public
-yarn build
+https://random-quote-machinec.netlify.com
+```
+## Improving skills and acquiring new ones :D
+```
+HTML, scss, Javascript, Redux, Typescript,  
+Infergo, Bulma, Webpack and Babel 
+```
+##Thank You !!!
+```
+https://www.freecodecamp.org
 ```
